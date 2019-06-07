@@ -6,5 +6,3 @@ dotnet new globaljson --sdk-version 2.1.500
 
 # Criar projeto MVC
 dotnet new mvc -au individual
-
-teste
