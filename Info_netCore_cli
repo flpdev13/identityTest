@@ -1,0 +1,8 @@
+# Exibir versões do net core instaladas
+dotnet --list-sdks
+
+# Criar arquivo global.json para definir a versão netcore do projeto
+dotnet new globaljson --sdk-version 2.1.500
+
+# Criar projeto MVC
+dotnet new mvc -au individual
